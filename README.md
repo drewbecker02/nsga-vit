@@ -2,7 +2,7 @@
 Code accompanying the paper. All codes assume running from root directory. Please update the sys path at the beginning of the codes before running.
 
 
-![overview](https://github.com/drewbecker02/nsga-vit/img/overview_redraw.png  "Overview of NSGA-Net")
+![overview](https://github.com/drewbecker02/nsga-vit/img/NSGAVIT procedure.png  "Overview of NSGA-Net")
 
 ## Requirements
 ``` 

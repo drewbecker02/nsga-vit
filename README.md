@@ -12,6 +12,7 @@ Python >= 3.6.8, PyTorch >= 1.0.1.post2, torchvision >= 0.2.2, pymoo == 0.3.0
 ## NSGA-ViT Architecture
 ![nsga-vit](https://github.com/drewbecker02/nsga-vit/blob/master/img/nsgavit.png "NSGA-ViT")
 
+
 ## Results on CIFAR-10
 ![cifar10_pareto](https://github.com/drewbecker02/nsga-vit/blob/master/img/conf_matrix.png "confusion matrix")
 

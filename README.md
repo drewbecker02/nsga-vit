@@ -14,18 +14,7 @@ Python >= 3.6.8, PyTorch >= 1.0.1.post2, torchvision >= 0.2.2, pymoo == 0.3.0
 
 
 ## Results on CIFAR-10
-![cifar10_pareto](https://github.com/drewbecker02/nsga-vit/blob/master/img/conf_matrix.png "confusion matrix")
-
-
-``` shell
-python validation/test.py --net_type micro --arch NSGANet --init_channels 34 --filter_increment 4 --auxiliary --model_path weights.pt
-```
-- Expected result: *2.22%* test error rate with *2.20M* model parameters, *550M* Multiply-Adds ([*weights.pt*](https://drive.google.com/open?id=1it_aFoez-U7SkxSuRPYWDVFg8kZwE7E7)). 
-
-``` shell
-python validation/test.py --net_type micro --arch NSGANet --init_channels 36 --filter_increment 6 --SE --auxiliary --model_path weights.pt
-```
-- Expected result: *2.02%* test error rate with *4.05M* model parameters, *817M* Multiply-Adds ([*weights.pt*](https://drive.google.com/open?id=1kLXzKxQ7dazjmANTvgSoeMPHWwYKiOtm)). 
+![cifar10_confusion](https://github.com/drewbecker02/nsga-vit/blob/master/img/conf_matrix.png "confusion matrix")
 
 ## Pretrained models on CIFAR-10
 ``` shell
@@ -57,7 +46,7 @@ If you would like to run asynchronous and parallelize each architecture's back-p
 ## Visualization
 To visualize the architectures:
 ``` shell
-python visualization/micro_visualize.py NSGANet            # micro search space architectures
+python visualization/micro_visualize.py NSG_ViT            # micro search space architectures
 ```
 For customized architecture, first define the architecture in `models/*_genotypes.py`, then substitute `NSGANet` with the name of your customized architecture. 
 

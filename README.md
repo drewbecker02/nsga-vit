@@ -1,4 +1,4 @@
-﻿# NSGA-ViT
+﻿# NSGA-ViT: An Evolutionary Approach to Vision Transformer Architecture Design
 Code accompanying the paper. All codes assume running from root directory. Please update the sys path at the beginning of the codes before running.
 
 
